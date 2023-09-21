@@ -1,0 +1,30 @@
+ .Image-me {
+    width: 15%;
+    object-fit: contain;
+    transform: perspective(1px) translateZ(0px);
+    border-radius:9%;
+
+  }
+
+.Image-me:hover{
+    
+    transform: translateY(-8px);
+}
+
+.about-me-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-top: 8%;
+   
+}
+
+.about-me{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5px;
+}

@@ -1,0 +1,64 @@
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    right:0;
+    left:0;
+    top:0;
+    z-index: 1;
+    background-color: white;
+}
+
+.left-nav{
+    font-family: sans-serif;
+    font-weight:bolder;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 10px;
+}
+.left-nav:hover{
+    color:  rgb(73,95,239);
+}
+
+.headers{
+    display:flex;
+    justify-content: space-between;
+    list-style: none;
+    font-weight: bolder;
+}
+
+/*.navbar-nav{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    justify-content: space-between;
+}
+*/
+
+.hire-me{
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+    right: 15px;
+    font-family:sans-serif -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+
+.skills,
+.projects,
+.experience,
+.hire-me {
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.skills:hover,
+.projects:hover,
+.experience:hover,
+.hire-me:hover {
+    color: rgb(73, 95, 239);
+}

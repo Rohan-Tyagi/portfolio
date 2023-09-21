@@ -1,0 +1,57 @@
+.footer-container{
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.first-text{
+    font-size: medium;
+    font-weight: bold;
+}
+h2{
+    font-weight: 700;
+    letter-spacing: -2.5px;
+    font-size: 40px;
+    line-height: 54px;
+    margin-bottom: 0px;
+    color: rgb(22, 28, 45);
+}
+.second-text{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.contact-footer{
+    color: rgb(73,95,239);
+    font-size: 13px;
+    box-sizing: border-box;
+    transition: all 0.4s ease-out 0s;
+    border-radius: 50rem;
+    font-weight: 700;
+    letter-spacing: 1.63px;
+    text-transform: uppercase;
+    padding: 23px 50px;
+    box-shadow: rgba(3, 3, 3, 0.12) 0px 32px 54px;
+    justify-content: space-between;
+    user-select: none;
+    transform: perspective(1px) translateZ(0px);
+    position: relative;
+    overflow: hidden;
+    border: none;
+    white-space: nowrap;
+    color: rgb(255, 255, 255);
+    background-color: rgb(86, 179, 129);
+    cursor: pointer;
+
+}
+
+.contact-footer:hover {
+    transform: translateY(-8px);
+  }
+
+.contact-container{
+    margin-top: 50px;
+}
